@@ -9,10 +9,10 @@ function _qrCode_help_getAlignmentPatternPositions() as object
     else
         numAlign = floor(m.version / 7) + 2
         stepSize = iif(m.version = 32, 26, ceil((m.version * 4 + 4) / (numAlign * 2 - 2)) * 2)
-        result = [6]
+        result = []
         position = m.size - 7
         while(result.count() < numAlign)
-            splice(result, 1, 0, [position])
+            result.unshift(position)
             position -= stepSize
         end while
         return result

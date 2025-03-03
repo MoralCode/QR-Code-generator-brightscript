@@ -81,24 +81,6 @@ function concat(array1 as object, array2 as object) as object
     return new
 end function
 
-function splice(array as object, start as integer, delete = 999999 as integer, insert = [] as object)
-    if start > array.count() - 1 then start = array.count() - 1
-    if start < 0 then start = array.count() - start
-    if start < 0 then start = 0
-    if delete < 0 then delete = 0
-    for d = 1 to delete
-        array.delete(start)
-    next
-    tmp = []
-    tmp.append(insert)
-    while(array.count() - 1 > start)
-        tmp.push(array[start])
-        array.delete(start)
-    end while
-    array.append(tmp)
-    return array
-end function
-
 function infinity()
     return 999999
 end function
