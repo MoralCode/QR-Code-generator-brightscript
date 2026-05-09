@@ -1,6 +1,6 @@
 {
 	"name": "@moralcode/qrcode-brightscript",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"description": "A Roku component that can generate QR codes",
 	"repository": {
 		"type": "git",
