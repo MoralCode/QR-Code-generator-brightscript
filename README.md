@@ -1,5 +1,7 @@
 # QR-Code-generator-brightscript
 
+![NPM Version](https://img.shields.io/npm/v/%40moralcode%2Fqrcode-brightscript)
+
 ## Introduction:
 
 With this Library, adding a QR code to your Roku app is a simple as including this in your xml file: 
