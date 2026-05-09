@@ -11,7 +11,7 @@
     <script type="text/brightscript" uri="./qrCode.utils.brs" />
     <interface>
         <field id="text" type="string" onChange="onTextChanged" />
-        <field id="binary" type="string" onChange="onBinaryChanged" />
+        <!-- <field id="binary" type="string" onChange="onBinaryChanged" /> -->
         <field id="ecl" type="string" value="LOW" />
         <field id="border" type="integer" value="4" />
         <field id="pixel" type="integer" value="8" />
