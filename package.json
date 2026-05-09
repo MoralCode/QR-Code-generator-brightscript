@@ -2,6 +2,15 @@
 	"name": "@moralcode/qrcode-brightscript",
 	"version": "0.1.1",
 	"description": "A Roku component that can generate QR codes",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/MoralCode/QR-Code-generator-brightscript.git"
+	},
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/MoralCode/QR-Code-generator-brightscript/issues"
+	},
+	"homepage": "https://github.com/MoralCode/QR-Code-generator-brightscript#readme",
 	"keywords": [
 		"ropm",
 		"roku",
